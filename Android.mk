@@ -141,6 +141,7 @@ LOCAL_SRC_FILES += \
 	core/java/android/nfc/INfcAdapter.aidl \
 	core/java/android/nfc/INfcAdapterExtras.aidl \
 	core/java/android/nfc/INfcCEFromHost.aidl \
+    core/java/android/nfc/INfcAla.aidl \
 	core/java/android/nfc/INfcTag.aidl \
 	core/java/android/os/ICancellationSignal.aidl \
 	core/java/android/os/IHardwareService.aidl \
@@ -305,6 +306,7 @@ aidl_files := \
 	frameworks/base/core/java/android/nfc/NdefMessage.aidl \
 	frameworks/base/core/java/android/nfc/NdefRecord.aidl \
 	frameworks/base/core/java/android/nfc/Tag.aidl \
+	frameworks/base/core/java/android/nfc/MultiSERoutingInfo.aidl \
 	frameworks/base/core/java/android/os/Bundle.aidl \
 	frameworks/base/core/java/android/os/DropBoxManager.aidl \
 	frameworks/base/core/java/android/os/ParcelFileDescriptor.aidl \
