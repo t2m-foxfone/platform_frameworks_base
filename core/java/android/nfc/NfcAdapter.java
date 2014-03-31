@@ -17,7 +17,7 @@
  *
  *  The original Work has been changed by NXP Semiconductors.
  *
- *  Copyright (C) 2013 NXP Semiconductors
+ *  Copyright (C) 2013-2014 NXP Semiconductors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -1597,6 +1597,21 @@ public final class NfcAdapter {
              return new NfcCEFromHost(sService.getNfcCEFromHostInterface());
          } catch (RemoteException e) {
              Log.e(TAG, "createNfcCEFromHost failed", e);
+             return null;
+         }
+    }
+
+    /**
+     * Helper to create an Nfc Ala object.
+     * <p>Requires {@link android.Manifest.permission#NFC} permission.
+     *
+     * @return the NfcAla, or null if no NfcAla exists
+     */
+    public NfcAla createNfcAla() {
+         try {
+             return new NfcAla(sService.getNfcAlaInterface());
+         } catch (RemoteException e) {
+             Log.e(TAG, "createNfcAla failed", e);
              return null;
          }
     }
