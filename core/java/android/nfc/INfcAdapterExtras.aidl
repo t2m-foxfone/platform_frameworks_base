@@ -18,7 +18,7 @@
  *
  *  The original Work has been changed by NXP Semiconductors.
  *
- *  Copyright (C) 2013-2014 NXP Semiconductors
+ *  Copyright (C) 2013 NXP Semiconductors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -52,6 +52,4 @@ interface INfcAdapterExtras {
     String getDriverName(in String pkg);
     int[] getSecureElementTechList(in String pkg);
     byte[] getSecureElementUid(in String pkg);
-    boolean reset(in String pkg);
-    Bundle getAtr(in String pkg);
 }

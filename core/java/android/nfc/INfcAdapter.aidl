@@ -18,7 +18,7 @@
  *
  *  The original Work has been changed by NXP Semiconductors.
  *
- *  Copyright (C) 2013-2014 NXP Semiconductors
+ *  Copyright (C) 2013 NXP Semiconductors
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -46,7 +46,6 @@ import android.nfc.INdefPushCallback;
 import android.nfc.INfcAdapterExtras;
 import android.nfc.INfcTag;
 import android.nfc.INfcCEFromHost;
-import android.nfc.INfcAla;
 
 /**
  * @hide
@@ -56,7 +55,6 @@ interface INfcAdapter
     INfcTag getNfcTagInterface();
     INfcAdapterExtras getNfcAdapterExtrasInterface(in String pkg);
     INfcCEFromHost getNfcCEFromHostInterface();
-    INfcAla getNfcAlaInterface();
 
     int getState();
     boolean disable(boolean saveState);
