@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/effects/ogg/KeypressDelete_48k.ogg:system/media/audio/ui/KeypressDelete.ogg \
 	$(LOCAL_PATH)/effects/ogg/KeypressInvalid_48k.ogg:system/media/audio/ui/KeypressInvalid.ogg \
 	$(LOCAL_PATH)/effects/ogg/KeypressReturn_48k.ogg:system/media/audio/ui/KeypressReturn.ogg \
-	$(LOCAL_PATH)/effects/ogg/VideoRecord_48k.ogg:system/media/audio/ui/VideoRecord.ogg \
+#	$(LOCAL_PATH)/effects/ogg/VideoRecord_48k.ogg:system/media/audio/ui/VideoRecord.ogg \
 	$(LOCAL_PATH)/effects/ogg/camera_click_48k.ogg:system/media/audio/ui/camera_click.ogg \
 	$(LOCAL_PATH)/effects/ogg/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg \
 	$(LOCAL_PATH)/effects/ogg/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg \
